@@ -86,8 +86,8 @@ server.use(/^(?!\/sessao).*$/, (req, res, next) => {
 
 server.use(router);
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 
-server.listen(3001, () => {
+server.listen(3000, () => {
   console.log(`Servidor inicializado`);
 });
